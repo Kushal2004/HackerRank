@@ -9,7 +9,7 @@ def luckBalance(k, contests):
         if(i[1]==0):
             luck+=i[0]
         else:
-            loose+=1    
+            loose+=1    #We can loose max k times 
             if(loose<=k):    
                 luck+=i[0]
             else:
